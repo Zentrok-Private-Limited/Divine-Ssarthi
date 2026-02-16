@@ -3801,11 +3801,9 @@ button:focus {
     opacity: 0;
 }
 
-.terot_content h3 {
-    text-transform: uppercase;
-}
+/* tarot zero css */
 
-.ast_tarot_box a .terot_content {
+.ast_tarot_box a .terot_content_zero {
     position: absolute;
     top: 15px;
     left: 15px;
@@ -3816,35 +3814,1004 @@ button:focus {
     padding: 10px;
     color: #ffffff;
     border-radius: 13px;
-    background-color: #ff6f00;
+    background-image: url("../images/tarotcard/Fool.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     border: 1px solid transparent;
     transform: rotateY(180deg);
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    -ms-transition: all 0.5s;
-    -o-transition: all 0.5s;
     transition: all 0.5s;
 }
 
-.ast_tarot_box a:hover .terot_content {
+
+.ast_tarot_box a:hover .terot_content_zero {
     opacity: 1;
     z-index: 1;
     transform: rotateY(0deg);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
-.ast_tarot_box a .terot_content h3 {
+.ast_tarot_box a .terot_content_zero h3 {
     color: #ffffff;
 }
 
-.ast_tarot_box .terot_content p {
-    margin-top: 20px;
+.ast_tarot_box .terot_content_zero p {
+    margin-top: 120px;
+    font-size: 15px;
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
     -webkit-line-clamp: 12;
     -webkit-box-orient: vertical;
 }
+
+/* tarot zero css end */
+
+/* tarot one css */
+
+.ast_tarot_box a .terot_content_one {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    bottom: 50px;
+    right: 15px;
+    z-index: 0;
+    opacity: 0;
+    padding: 10px;
+    color: #ffffff;
+    border-radius: 13px;
+    background-image: url("../images/tarotcard/magician.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid transparent;
+    transform: rotateY(180deg);
+    transition: all 0.5s;
+}
+
+
+.ast_tarot_box a:hover .terot_content_one {
+    opacity: 1;
+    z-index: 1;
+    transform: rotateY(0deg);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.ast_tarot_box a .terot_content_one h3 {
+    color: #ffffff;
+}
+
+.ast_tarot_box .terot_content_one p {
+    margin-top: 120px;
+    font-size: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 12;
+    -webkit-box-orient: vertical;
+}
+
+/* tarot one css end */
+
+/* tarot two css */
+
+.ast_tarot_box a .terot_content_two {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    bottom: 50px;
+    right: 15px;
+    z-index: 0;
+    opacity: 0;
+    padding: 10px;
+    color: #ffffff;
+    border-radius: 13px;
+    background-image: url("../images/tarotcard/HighPriestess.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid transparent;
+    transform: rotateY(180deg);
+    transition: all 0.5s;
+}
+
+
+.ast_tarot_box a:hover .terot_content_two {
+    opacity: 1;
+    z-index: 1;
+    transform: rotateY(0deg);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.ast_tarot_box a .terot_content_two h3 {
+    color: #ffffff;
+}
+
+.ast_tarot_box .terot_content_two p {
+    margin-top: 120px;
+    font-size: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 12;
+    -webkit-box-orient: vertical;
+}
+
+/* tarot two css end */
+
+/* tarot three css */
+
+.ast_tarot_box a .terot_content_three {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    bottom: 50px;
+    right: 15px;
+    z-index: 0;
+    opacity: 0;
+    padding: 10px;
+    color: #ffffff;
+    border-radius: 13px;
+    background-image: url("../images/tarotcard/Empress.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid transparent;
+    transform: rotateY(180deg);
+    transition: all 0.5s;
+}
+
+
+.ast_tarot_box a:hover .terot_content_three {
+    opacity: 1;
+    z-index: 1;
+    transform: rotateY(0deg);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.ast_tarot_box a .terot_content_three h3 {
+    color: #ffffff;
+}
+
+.ast_tarot_box .terot_content_three p {
+    margin-top: 120px;
+    font-size: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 12;
+    -webkit-box-orient: vertical;
+}
+
+/* tarot three css end */
+
+/* tarot four css */
+
+.ast_tarot_box a .terot_content_four {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    bottom: 50px;
+    right: 15px;
+    z-index: 0;
+    opacity: 0;
+    padding: 10px;
+    color: #ffffff;
+    border-radius: 13px;
+    background-image: url("../images/tarotcard/emperor.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid transparent;
+    transform: rotateY(180deg);
+    transition: all 0.5s;
+}
+
+
+.ast_tarot_box a:hover .terot_content_four {
+    opacity: 1;
+    z-index: 1;
+    transform: rotateY(0deg);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.ast_tarot_box a .terot_content_four h3 {
+    color: #ffffff;
+}
+
+.ast_tarot_box .terot_content_four p {
+    margin-top: 120px;
+    font-size: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 12;
+    -webkit-box-orient: vertical;
+}
+
+/* tarot four css end */
+
+/* tarot five css */
+
+.ast_tarot_box a .terot_content_five {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    bottom: 50px;
+    right: 15px;
+    z-index: 0;
+    opacity: 0;
+    padding: 10px;
+    color: #ffffff;
+    border-radius: 13px;
+    background-image: url("../images/tarotcard/heirophant.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid transparent;
+    transform: rotateY(180deg);
+    transition: all 0.5s;
+}
+
+
+.ast_tarot_box a:hover .terot_content_five {
+    opacity: 1;
+    z-index: 1;
+    transform: rotateY(0deg);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.ast_tarot_box a .terot_content_five h3 {
+    color: #ffffff;
+}
+
+.ast_tarot_box .terot_content_five p {
+    margin-top: 120px;
+    font-size: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 12;
+    -webkit-box-orient: vertical;
+}
+
+/* tarot five css end */
+
+/* tarot six css */
+
+.ast_tarot_box a .terot_content_six {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    bottom: 50px;
+    right: 15px;
+    z-index: 0;
+    opacity: 0;
+    padding: 10px;
+    color: #ffffff;
+    border-radius: 13px;
+    background-image: url("../images/tarotcard/Lovers.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid transparent;
+    transform: rotateY(180deg);
+    transition: all 0.5s;
+}
+
+
+.ast_tarot_box a:hover .terot_content_six {
+    opacity: 1;
+    z-index: 1;
+    transform: rotateY(0deg);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.ast_tarot_box a .terot_content_six h3 {
+    color: #ffffff;
+}
+
+.ast_tarot_box .terot_content_six p {
+    margin-top: 120px;
+    font-size: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 12;
+    -webkit-box-orient: vertical;
+}
+
+/* tarot six css end */
+
+/* tarot seven css */
+
+.ast_tarot_box a .terot_content_seven {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    bottom: 50px;
+    right: 15px;
+    z-index: 0;
+    opacity: 0;
+    padding: 10px;
+    color: #ffffff;
+    border-radius: 13px;
+    background-image: url("../images/tarotcard/Chariot.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid transparent;
+    transform: rotateY(180deg);
+    transition: all 0.5s;
+}
+
+
+.ast_tarot_box a:hover .terot_content_seven {
+    opacity: 1;
+    z-index: 1;
+    transform: rotateY(0deg);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.ast_tarot_box a .terot_content_seven h3 {
+    color: #ffffff;
+}
+
+.ast_tarot_box .terot_content_seven p {
+    margin-top: 120px;
+    font-size: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 12;
+    -webkit-box-orient: vertical;
+}
+
+/* tarot seven css end */
+
+/* tarot eight css */
+
+.ast_tarot_box a .terot_content_eight {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    bottom: 50px;
+    right: 15px;
+    z-index: 0;
+    opacity: 0;
+    padding: 10px;
+    color: #ffffff;
+    border-radius: 13px;
+    background-image: url("../images/tarotcard/Strength.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid transparent;
+    transform: rotateY(180deg);
+    transition: all 0.5s;
+}
+
+
+.ast_tarot_box a:hover .terot_content_eight {
+    opacity: 1;
+    z-index: 1;
+    transform: rotateY(0deg);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.ast_tarot_box a .terot_content_eight h3 {
+    color: #ffffff;
+}
+
+.ast_tarot_box .terot_content_eight p {
+    margin-top: 120px;
+    font-size: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 12;
+    -webkit-box-orient: vertical;
+}
+
+/* tarot eight css end */
+
+/* tarot nine css */
+
+.ast_tarot_box a .terot_content_nine {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    bottom: 50px;
+    right: 15px;
+    z-index: 0;
+    opacity: 0;
+    padding: 10px;
+    color: #ffffff;
+    border-radius: 13px;
+    background-image: url("../images/tarotcard/Hermit.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid transparent;
+    transform: rotateY(180deg);
+    transition: all 0.5s;
+}
+
+
+.ast_tarot_box a:hover .terot_content_nine {
+    opacity: 1;
+    z-index: 1;
+    transform: rotateY(0deg);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.ast_tarot_box a .terot_content_nine h3 {
+    color: #ffffff;
+}
+
+.ast_tarot_box .terot_content_nine p {
+    margin-top: 120px;
+    font-size: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 12;
+    -webkit-box-orient: vertical;
+}
+
+/* tarot nine css end */
+
+/* tarot ten css */
+
+.ast_tarot_box a .terot_content_ten {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    bottom: 50px;
+    right: 15px;
+    z-index: 0;
+    opacity: 0;
+    padding: 10px;
+    color: #ffffff;
+    border-radius: 13px;
+    background-image: url("../images/tarotcard/WheelFortune.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid transparent;
+    transform: rotateY(180deg);
+    transition: all 0.5s;
+}
+
+
+.ast_tarot_box a:hover .terot_content_ten {
+    opacity: 1;
+    z-index: 1;
+    transform: rotateY(0deg);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.ast_tarot_box a .terot_content_ten h3 {
+    color: #ffffff;
+}
+
+.ast_tarot_box .terot_content_ten p {
+    margin-top: 120px;
+    font-size: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 12;
+    -webkit-box-orient: vertical;
+}
+
+/* tarot ten css end */
+
+/* tarot eleven css */
+
+.ast_tarot_box a .terot_content_eleven {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    bottom: 50px;
+    right: 15px;
+    z-index: 0;
+    opacity: 0;
+    padding: 10px;
+    color: #ffffff;
+    border-radius: 13px;
+    background-image: url("../images/tarotcard/Justice.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid transparent;
+    transform: rotateY(180deg);
+    transition: all 0.5s;
+}
+
+
+.ast_tarot_box a:hover .terot_content_eleven {
+    opacity: 1;
+    z-index: 1;
+    transform: rotateY(0deg);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.ast_tarot_box a .terot_content_eleven h3 {
+    color: #ffffff;
+}
+
+.ast_tarot_box .terot_content_eleven p {
+    margin-top: 120px;
+    font-size: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 12;
+    -webkit-box-orient: vertical;
+}
+
+/* tarot eleven css end */
+
+/* tarot twelve css */
+
+.ast_tarot_box a .terot_content_twelve {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    bottom: 50px;
+    right: 15px;
+    z-index: 0;
+    opacity: 0;
+    padding: 10px;
+    color: #ffffff;
+    border-radius: 13px;
+    background-image: url("../images/tarotcard/HangedMan.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid transparent;
+    transform: rotateY(180deg);
+    transition: all 0.5s;
+}
+
+
+.ast_tarot_box a:hover .terot_content_twelve {
+    opacity: 1;
+    z-index: 1;
+    transform: rotateY(0deg);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.ast_tarot_box a .terot_content_twelve h3 {
+    color: #ffffff;
+}
+
+.ast_tarot_box .terot_content_twelve p {
+    margin-top: 120px;
+    font-size: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 12;
+    -webkit-box-orient: vertical;
+}
+
+/* tarot twelve css end */
+
+/* tarot thirteen css */
+
+.ast_tarot_box a .terot_content_thirteen {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    bottom: 50px;
+    right: 15px;
+    z-index: 0;
+    opacity: 0;
+    padding: 10px;
+    color: #ffffff;
+    border-radius: 13px;
+    background-image: url("../images/tarotcard/Death.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid transparent;
+    transform: rotateY(180deg);
+    transition: all 0.5s;
+}
+
+
+.ast_tarot_box a:hover .terot_content_thirteen {
+    opacity: 1;
+    z-index: 1;
+    transform: rotateY(0deg);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.ast_tarot_box a .terot_content_thirteen h3 {
+    color: #ffffff;
+}
+
+.ast_tarot_box .terot_content_thirteen p {
+    margin-top: 120px;
+    font-size: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 12;
+    -webkit-box-orient: vertical;
+}
+
+/* tarot thirteen css end */
+
+/* tarot fourteen css */
+
+.ast_tarot_box a .terot_content_fourteen {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    bottom: 50px;
+    right: 15px;
+    z-index: 0;
+    opacity: 0;
+    padding: 10px;
+    color: #ffffff;
+    border-radius: 13px;
+    background-image: url("../images/tarotcard/Temprance.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid transparent;
+    transform: rotateY(180deg);
+    transition: all 0.5s;
+}
+
+
+.ast_tarot_box a:hover .terot_content_fourteen {
+    opacity: 1;
+    z-index: 1;
+    transform: rotateY(0deg);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.ast_tarot_box a .terot_content_fourteen h3 {
+    color: #ffffff;
+}
+
+.ast_tarot_box .terot_content_fourteen p {
+    margin-top: 120px;
+    font-size: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 12;
+    -webkit-box-orient: vertical;
+}
+
+/* tarot fourteen css end */
+
+/* tarot fifteen css */
+
+.ast_tarot_box a .terot_content_fifteen {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    bottom: 50px;
+    right: 15px;
+    z-index: 0;
+    opacity: 0;
+    padding: 10px;
+    color: #ffffff;
+    border-radius: 13px;
+    background-image: url("../images/tarotcard/Devil.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid transparent;
+    transform: rotateY(180deg);
+    transition: all 0.5s;
+}
+
+
+.ast_tarot_box a:hover .terot_content_fifteen {
+    opacity: 1;
+    z-index: 1;
+    transform: rotateY(0deg);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.ast_tarot_box a .terot_content_fifteen h3 {
+    color: #ffffff;
+}
+
+.ast_tarot_box .terot_content_fifteen p {
+    margin-top: 120px;
+    font-size: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 12;
+    -webkit-box-orient: vertical;
+}
+
+/* tarot fifteen css end */
+
+/* tarot sixteen css */
+
+.ast_tarot_box a .terot_content_sixteen {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    bottom: 50px;
+    right: 15px;
+    z-index: 0;
+    opacity: 0;
+    padding: 10px;
+    color: #ffffff;
+    border-radius: 13px;
+    background-image: url("../images/tarotcard/Tower.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid transparent;
+    transform: rotateY(180deg);
+    transition: all 0.5s;
+}
+
+
+.ast_tarot_box a:hover .terot_content_sixteen {
+    opacity: 1;
+    z-index: 1;
+    transform: rotateY(0deg);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.ast_tarot_box a .terot_content_sixteen h3 {
+    color: #ffffff;
+}
+
+.ast_tarot_box .terot_content_sixteen p {
+    margin-top: 120px;
+    font-size: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 12;
+    -webkit-box-orient: vertical;
+}
+
+/* tarot sixteen css end */
+
+/* tarot seventeen css */
+
+.ast_tarot_box a .terot_content_seventeen {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    bottom: 50px;
+    right: 15px;
+    z-index: 0;
+    opacity: 0;
+    padding: 10px;
+    color: #ffffff;
+    border-radius: 13px;
+    background-image: url("../images/tarotcard/Star.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid transparent;
+    transform: rotateY(180deg);
+    transition: all 0.5s;
+}
+
+
+.ast_tarot_box a:hover .terot_content_seventeen {
+    opacity: 1;
+    z-index: 1;
+    transform: rotateY(0deg);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.ast_tarot_box a .terot_content_seventeen h3 {
+    color: #ffffff;
+}
+
+.ast_tarot_box .terot_content_seventeen p {
+    margin-top: 120px;
+    font-size: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 12;
+    -webkit-box-orient: vertical;
+}
+
+/* tarot seventeen css end */
+
+/* tarot eighteen css */
+
+.ast_tarot_box a .terot_content_eighteen {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    bottom: 50px;
+    right: 15px;
+    z-index: 0;
+    opacity: 0;
+    padding: 10px;
+    color: #ffffff;
+    border-radius: 13px;
+    background-image: url("../images/tarotcard/Moon.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid transparent;
+    transform: rotateY(180deg);
+    transition: all 0.5s;
+}
+
+
+.ast_tarot_box a:hover .terot_content_eighteen {
+    opacity: 1;
+    z-index: 1;
+    transform: rotateY(0deg);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.ast_tarot_box a .terot_content_eighteen h3 {
+    color: #ffffff;
+}
+
+.ast_tarot_box .terot_content_eighteen p {
+    margin-top: 120px;
+    font-size: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 12;
+    -webkit-box-orient: vertical;
+}
+
+/* tarot eighteen css end */
+
+/* tarot nineteen css */
+
+.ast_tarot_box a .terot_content_nineteen {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    bottom: 50px;
+    right: 15px;
+    z-index: 0;
+    opacity: 0;
+    padding: 10px;
+    color: #ffffff;
+    border-radius: 13px;
+    background-image: url("../images/tarotcard/Sun.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid transparent;
+    transform: rotateY(180deg);
+    transition: all 0.5s;
+}
+
+
+.ast_tarot_box a:hover .terot_content_nineteen {
+    opacity: 1;
+    z-index: 1;
+    transform: rotateY(0deg);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.ast_tarot_box a .terot_content_nineteen h3 {
+    color: #ffffff;
+}
+
+.ast_tarot_box .terot_content_nineteen p {
+    margin-top: 120px;
+    font-size: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 12;
+    -webkit-box-orient: vertical;
+}
+
+/* tarot nineteen css end */
+
+/* tarot twenty css */
+
+.ast_tarot_box a .terot_content_twenty {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    bottom: 50px;
+    right: 15px;
+    z-index: 0;
+    opacity: 0;
+    padding: 10px;
+    color: #ffffff;
+    border-radius: 13px;
+    background-image: url("../images/tarotcard/Judgement.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid transparent;
+    transform: rotateY(180deg);
+    transition: all 0.5s;
+}
+
+
+.ast_tarot_box a:hover .terot_content_twenty {
+    opacity: 1;
+    z-index: 1;
+    transform: rotateY(0deg);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.ast_tarot_box a .terot_content_twenty h3 {
+    color: #ffffff;
+}
+
+.ast_tarot_box .terot_content_twenty p {
+    margin-top: 120px;
+    font-size: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 12;
+    -webkit-box-orient: vertical;
+}
+
+/* tarot twenty css end */
+
+/* tarot twentyone css */
+
+.ast_tarot_box a .terot_content_twentyone {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    bottom: 50px;
+    right: 15px;
+    z-index: 0;
+    opacity: 0;
+    padding: 10px;
+    color: #ffffff;
+    border-radius: 13px;
+    background-image: url("../images/tarotcard/World.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid transparent;
+    transform: rotateY(180deg);
+    transition: all 0.5s;
+}
+
+
+.ast_tarot_box a:hover .terot_content_twentyone {
+    opacity: 1;
+    z-index: 1;
+    transform: rotateY(0deg);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.ast_tarot_box a .terot_content_twentyone h3 {
+    color: #ffffff;
+}
+
+.ast_tarot_box .terot_content_twentyone p {
+    margin-top: 120px;
+    font-size: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 12;
+    -webkit-box-orient: vertical;
+}
+
+/* tarot twentyone css end */
 
 /*-------- Tarot css end ---------*/
 
